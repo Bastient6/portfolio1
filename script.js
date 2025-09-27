@@ -73,7 +73,7 @@ function typeWriterLine(text, output, speed = 200) {
             setTimeout(typeWriteLineFun, speed);
         }
     }
-    typeWriteLine();
+    typeWriteLineFun();
 }
 
 
