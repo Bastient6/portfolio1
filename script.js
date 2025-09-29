@@ -84,7 +84,7 @@ function repartCommand(command = new URLSearchParams(window.location.search).get
 
     if (command == "help") {
         const text = "table des matières:\n\n ls pour lister les fichiers \n\n cat file.txt pour les fichiers text\n\n gcc file.c pour les fichiers c \n\n python file.py pour les fichiers python \n\n cp file.pdf pour les fichiers pdf\n\n ping file.html pour les fichiers html\n\n man cv\n\n Utiliser -> pour l'autocomplétion";
-        typeWriterfunchar(text, output);
+        typeWriterchar(text, output);
     }
     if (command == "ls") {
         let tailleEcranX = window.innerWidth;
